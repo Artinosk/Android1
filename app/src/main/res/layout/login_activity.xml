@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/login_activity"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FFFEFE">
+
+    <FrameLayout
+        android:id="@+id/login_activity_frame"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <ImageView
+            android:id="@+id/imageView4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:translationX="65px"
+            android:translationY="1075px"
+            app:srcCompat="@drawable/sc1_passbar" />
+
+        <ImageView
+            android:id="@+id/imageView5"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:translationX="65px"
+            android:translationY="750px"
+            app:srcCompat="@drawable/sc1_passbar" />
+
+        <ImageView
+            android:id="@+id/imageView"
+            android:layout_width="357dp"
+            android:layout_height="384dp"
+            android:layout_marginStart="24dp"
+            android:layout_marginTop="120dp"
+            app:srcCompat="@drawable/sc1_login_objects_without" />
+
+
+        <com.google.android.material.textfield.TextInputLayout
+            android:layout_width="347dp"
+            android:layout_height="wrap_content"
+            android:translationX="70px"
+            android:translationY="1050px"
+            app:passwordToggleEnabled="true">
+
+            <com.google.android.material.textfield.TextInputEditText
+                android:layout_width="match_parent"
+                android:layout_height="55dp"
+                android:background="#00ffffff"
+                android:hint="•••••••"
+                android:inputType="textPassword" />
+        </com.google.android.material.textfield.TextInputLayout>
+
+        <EditText
+            android:id="@+id/editTextTextPassword2"
+            android:layout_width="325dp"
+            android:layout_height="wrap_content"
+            android:backgroundTint="#FAECEC"
+            android:ems="10"
+            android:hint="xyz@gmail.com"
+            android:inputType="textEmailSubject"
+            android:minHeight="48dp"
+            android:translationX="100px"
+            android:translationY="750px"
+            tools:ignore="SpeakableTextPresentCheck" />
+
+        <ImageView
+            android:id="@+id/imageView2"
+            android:layout_width="321dp"
+            android:layout_height="31dp"
+            android:layout_gravity="bottom"
+            android:layout_marginStart="44dp"
+            android:layout_marginBottom="28dp"
+            app:srcCompat="@drawable/sc1_create_new" />
+
+        <ImageButton
+            android:id="@+id/LOL"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_marginStart="28dp"
+            android:layout_marginBottom="152dp"
+            android:background="@drawable/sc1_selectable_button_bg"
+            android:contentDescription=" "
+            android:onClick="next_step"
+            android:padding="1dp"
+            android:scaleY="1.1"
+            android:src="@drawable/sc1_button"
+            android:translationY="1450px" />
+
+        <ImageButton
+            android:id="@+id/imageButton2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="#00FFFFFF"
+            android:contentDescription=" "
+            android:minHeight="100px"
+            android:scaleX="1.2"
+            android:scaleY="1.2"
+            android:translationX="750px"
+            android:translationY="1250px"
+            app:srcCompat="@drawable/sc2_recover"
+            tools:ignore="TouchTargetSizeCheck" />
+
+    </FrameLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

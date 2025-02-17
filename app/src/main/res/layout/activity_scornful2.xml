@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@drawable/sc3_background"
+    tools:context=".ScornfulActivity2">
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <ImageView
+            android:id="@+id/imageView7"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:translationY="-80px"
+            android:scaleX="1.4"
+            android:scaleY="1.4"
+            app:srcCompat="@drawable/sc3_background" />
+
+        <ImageView
+            android:id="@+id/imageView6"
+            android:layout_width="429dp"
+            android:layout_height="321dp"
+            android:translationX="0px"
+            android:translationY="300px"
+            app:srcCompat="@drawable/sc3_sniker" />
+
+        <ImageButton
+            android:id="@+id/imageButton"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#00FFFFFF"
+            android:contentDescription=" "
+            android:translationY="2000px"
+            app:srcCompat="@drawable/sc3_button" />
+
+    </FrameLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>
